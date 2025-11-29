@@ -9,11 +9,11 @@ class Solution:
             current_area = (min(height[left], height[right]))* (right - left)
             max_area = max(max_area, current_area)
 
-            if (height[left] < height[right]):
-                left += 1
+            if (height[left] >= height[right]):
+                right -= 1
                
             else:
-                 right -= 1
+                 left += 1
 
         return max_area
     

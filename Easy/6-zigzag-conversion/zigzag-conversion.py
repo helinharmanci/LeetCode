@@ -16,7 +16,7 @@ class Solution:
 
         for i in range (0, loop_number):
             list_index += 1
-            print("start of going down: s")
+            print("start of going down:")
             while list_index < numRows:
                 if string_index == len(s):
                     break

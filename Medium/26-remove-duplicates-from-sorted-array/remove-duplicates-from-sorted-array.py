@@ -13,6 +13,7 @@ class Solution:
             else:
                 compared_to_index = compare_index
                 compare_index += 1
+                
         nums.sort()
         return len(nums)-count
 
